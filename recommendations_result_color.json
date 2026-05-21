@@ -1,0 +1,4686 @@
+{
+  "generated_at": "2026-05-13T17:55:12.400Z",
+  "settings": {
+    "limit": 10,
+    "minPercent": 0,
+    "dresses_file": "dresses_database_50.json",
+    "rules_file": "rules_color_features.json",
+    "users_file": "test_users_color_features.json"
+  },
+  "users_count": 6,
+  "results": [
+    {
+      "user_id": "user_01",
+      "user_name": "Низкий рост, фигура груша, холодное лето",
+      "status": "ok",
+      "input": {
+        "id": "user_01",
+        "name": "Низкий рост, фигура груша, холодное лето",
+        "height_cm": 158,
+        "weight_kg": 54,
+        "size": "S",
+        "body_type": "груша",
+        "hair_color": "русый",
+        "eye_color": "серые",
+        "skin_tone": "светлая",
+        "skin_undertone": "холодный",
+        "vein_color": "синие",
+        "hair_length_or_hairstyle": "длинные",
+        "hair_type": "прямые",
+        "preferred_colors": [
+          "голубой",
+          "серый"
+        ],
+        "budget_min": 1000,
+        "budget_max": 7000,
+        "season": "summer",
+        "tan_behavior": "быстро краснеет без коричневого оттенка",
+        "freckles": "пепельные или почти нет",
+        "lip_color": "бледно-розовый",
+        "brows_lashes": "такого же цвета как волосы",
+        "color_type": null,
+        "freckles_tan_blush": null,
+        "contrast_saturation": null,
+        "metals_tests": null
+      },
+      "profile": {
+        "input": {
+          "id": "user_01",
+          "name": "Низкий рост, фигура груша, холодное лето",
+          "height_cm": 158,
+          "weight_kg": 54,
+          "size": "S",
+          "body_type": "груша",
+          "hair_color": "русый",
+          "eye_color": "серые",
+          "skin_tone": "светлая",
+          "skin_undertone": "холодный",
+          "vein_color": "синие",
+          "hair_length_or_hairstyle": "длинные",
+          "hair_type": "прямые",
+          "preferred_colors": [
+            "голубой",
+            "серый"
+          ],
+          "budget_min": 1000,
+          "budget_max": 7000,
+          "season": "summer",
+          "tan_behavior": "быстро краснеет без коричневого оттенка",
+          "freckles": "пепельные или почти нет",
+          "lip_color": "бледно-розовый",
+          "brows_lashes": "такого же цвета как волосы",
+          "color_type": null,
+          "freckles_tan_blush": null,
+          "contrast_saturation": null,
+          "metals_tests": null
+        },
+        "heightCategory": "short",
+        "heightLabel": "156–160 см",
+        "weightLabel": "45–55 кг",
+        "bodyType": "груша",
+        "colorType": {
+          "id": "holodnoe_leto",
+          "displayName": "True Summer / Холодное лето",
+          "sourceLabel": "Холодное лето / True Summer",
+          "group": "summer",
+          "confidence": "high",
+          "matchedFields": [
+            "hair_color",
+            "skin_tone",
+            "skin_undertone",
+            "vein_color",
+            "eye_color",
+            "brows_lashes",
+            "tan_behavior",
+            "freckles",
+            "lip_color"
+          ]
+        },
+        "preferredColors": [
+          "Холодные приглушённые цвета средней светлоты: розово-ягодный",
+          "холодная роза",
+          "mauve",
+          "dusty rose",
+          "лаванда",
+          "сирень",
+          "сливовый мягкий",
+          "серо-голубой",
+          "дымчатый синий",
+          "джинсовый",
+          "морская волна холодная",
+          "шалфейно-серый",
+          "холодная мята",
+          "мягкий изумруд",
+          "жемчужный",
+          "холодный серый",
+          "розово-коричневый taupe"
+        ],
+        "preferredColorTemperatures": [
+          "cold"
+        ],
+        "preferredColorBrightness": [
+          "soft",
+          "light"
+        ],
+        "preferredLengths": [
+          "mini",
+          "knee",
+          "midi"
+        ],
+        "avoidLengths": [
+          "maxi",
+          "ankle"
+        ],
+        "preferredSilhouettes": [
+          "wrap",
+          "belted",
+          "a-line",
+          "sheath",
+          "slip-dress",
+          "draped",
+          "fit-and-flare"
+        ],
+        "avoidSilhouettes": [
+          "straight"
+        ],
+        "preferredNecklines": [
+          "v-neck",
+          "square",
+          "boat",
+          "strapless",
+          "sweetheart",
+          "round",
+          "high-neck",
+          "off-shoulder",
+          "backless",
+          "one-shoulder"
+        ],
+        "avoidNecklines": [],
+        "preferredSleeves": [
+          "short",
+          "three-quarter",
+          "long",
+          "sleeveless",
+          "puff"
+        ],
+        "preferredFits": [],
+        "avoidFits": [],
+        "preferredPrintsAndLines": [
+          "vertical-stripe"
+        ],
+        "avoidPrintsAndLines": [
+          "horizontal"
+        ],
+        "waistAccentRecommended": true,
+        "technicalConstraints": {
+          "size": "S",
+          "budgetMin": 1000,
+          "budgetMax": 7000,
+          "season": "summer"
+        },
+        "notes": [
+          "Рост: Лучше обозначать талию, особенно в миди и макси",
+          "Вес: Трикотаж, сатин, костюмная ткань, фактура, рюши, сборки"
+        ]
+      },
+      "total_dresses_in_database": 50,
+      "returned_recommendations": 10,
+      "note": "Результат является вероятностной рекомендацией и не гарантирует идеальную посадку платья.",
+      "recommendations": [
+        {
+          "rank": 1,
+          "dress_id": 2,
+          "name": "Голубое платье-рубашка миди с поясом",
+          "match_percent": 82,
+          "match_level": "high",
+          "raw_score": 111,
+          "style_score": 124,
+          "technical_score": 12,
+          "negative_score": -25,
+          "price_rub": 2174,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "голубой",
+          "color_temperature": "cold",
+          "color_brightness": "light",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "v-neck",
+          "sleeve_length": "sleeveless",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KX9D_33371529_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «груша»",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 45–55 кг",
+            "платье подходит предполагаемому цветотипу: True Summer / Холодное лето",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: S"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 2,
+          "dress_id": 11,
+          "name": "Розовое платье миди с V-вырезом",
+          "match_percent": 82,
+          "match_level": "high",
+          "raw_score": 107,
+          "style_score": 120,
+          "technical_score": 12,
+          "negative_score": -25,
+          "price_rub": 2099,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "розовый",
+          "color_temperature": "cold",
+          "color_brightness": "soft",
+          "length": "midi",
+          "silhouette": "fit-and-flare",
+          "neckline": "v-neck",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KP3L_32939304_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «груша»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 45–55 кг",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: S"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 3,
+          "dress_id": 10,
+          "name": "Голубое облегающее платье макси",
+          "match_percent": 63,
+          "match_level": "medium",
+          "raw_score": 78,
+          "style_score": 100,
+          "technical_score": 17,
+          "negative_score": -39,
+          "price_rub": 3224,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "голубой",
+          "color_temperature": "cold",
+          "color_brightness": "light",
+          "length": "maxi",
+          "silhouette": "sheath",
+          "neckline": "v-neck",
+          "sleeve_length": "long",
+          "fit": "fitted",
+          "waist_accent": false,
+          "season": [
+            "spring"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KZ7T_33371791_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 45–55 кг",
+            "платье подходит предполагаемому цветотипу: True Summer / Холодное лето",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: S",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "сезон платья может не совпадать с указанным сезоном",
+            "платье может быть менее удачным для типа фигуры «груша»",
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры",
+            "длина платья входит в список нежелательных для данного роста",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 68,
+          "diversity_penalty": 5
+        },
+        {
+          "rank": 4,
+          "dress_id": 37,
+          "name": "Бордовый платье мини А-силуэта с вырезом лодочка",
+          "match_percent": 63,
+          "match_level": "medium",
+          "raw_score": 72,
+          "style_score": 81,
+          "technical_score": 17,
+          "negative_score": -26,
+          "price_rub": 2324,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бордовый",
+          "color_temperature": "cold",
+          "color_brightness": "deep",
+          "length": "mini",
+          "silhouette": "a-line",
+          "neckline": "boat",
+          "sleeve_length": "sleeveless",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «груша»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "температура цвета подходит предполагаемому цветотипу",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: S",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "сезон платья может не совпадать с указанным сезоном",
+            "яркость/глубина цвета менее удачна для группы «летний цветотип»",
+            "летнему цветотипу чаще подходят мягкие и приглушенные оттенки, а не слишком темные или яркие"
+          ],
+          "base_percent_before_diversity": 63,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 5,
+          "dress_id": 9,
+          "name": "Темное платье миди с мелким цветочным принтом",
+          "match_percent": 58,
+          "match_level": "medium",
+          "raw_score": 67,
+          "style_score": 103,
+          "technical_score": 12,
+          "negative_score": -48,
+          "price_rub": 2174,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "синий",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "midi",
+          "silhouette": "wrap",
+          "neckline": "v-neck",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1L805_33482471_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «груша»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 45–55 кг",
+            "платье подходит предполагаемому цветотипу: True Summer / Холодное лето",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: S",
+            "яркость/глубина цвета менее удачна для группы «летний цветотип»",
+            "летнему цветотипу чаще подходят мягкие и приглушенные оттенки, а не слишком темные или яркие"
+          ],
+          "base_percent_before_diversity": 58,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 6,
+          "dress_id": 20,
+          "name": "Лавандовый платье миди рубашка с V-образным вырезом",
+          "match_percent": 56,
+          "match_level": "medium",
+          "raw_score": 73,
+          "style_score": 86,
+          "technical_score": 12,
+          "negative_score": -25,
+          "price_rub": 2324,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "лавандовый",
+          "color_temperature": "cold",
+          "color_brightness": "soft",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "v-neck",
+          "sleeve_length": "long",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: S",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 63,
+          "diversity_penalty": 7
+        },
+        {
+          "rank": 7,
+          "dress_id": 28,
+          "name": "Молочный платье мини рубашка с квадратным вырезом",
+          "match_percent": 55,
+          "match_level": "medium",
+          "raw_score": 63,
+          "style_score": 59,
+          "technical_score": 17,
+          "negative_score": -13,
+          "price_rub": 2099,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "молочный",
+          "color_temperature": "warm",
+          "color_brightness": "light",
+          "length": "mini",
+          "silhouette": "shirt-dress",
+          "neckline": "square",
+          "sleeve_length": "long",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: S",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "сезон платья может не совпадать с указанным сезоном",
+            "температура цвета может быть менее удачной для предполагаемого цветотипа"
+          ],
+          "base_percent_before_diversity": 55,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 8,
+          "dress_id": 8,
+          "name": "Серое платье-рубашка миди",
+          "match_percent": 49,
+          "match_level": "low",
+          "raw_score": 66,
+          "style_score": 85,
+          "technical_score": 9,
+          "negative_score": -28,
+          "price_rub": 2099,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "серый",
+          "color_temperature": "cold",
+          "color_brightness": "soft",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "collar",
+          "sleeve_length": "short",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "autumn"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1K9T5_32919975_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: True Summer / Холодное лето",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: S",
+            "сезон платья может не совпадать с указанным сезоном",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 57,
+          "diversity_penalty": 8
+        },
+        {
+          "rank": 9,
+          "dress_id": 46,
+          "name": "Черный платье мини с запахом с открытыми плечами",
+          "match_percent": 44,
+          "match_level": "low",
+          "raw_score": 51,
+          "style_score": 90,
+          "technical_score": 20,
+          "negative_score": -59,
+          "price_rub": 1574,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "черный",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "mini",
+          "silhouette": "wrap",
+          "neckline": "off-shoulder",
+          "sleeve_length": "short",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «груша»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "температура цвета подходит предполагаемому цветотипу",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке",
+            "принт/линии платья соответствуют рекомендациям профиля"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: S",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "яркость/глубина цвета менее удачна для группы «летний цветотип»",
+            "цвет «черный» может быть менее удачным для группы «летний цветотип»",
+            "черный цвет слишком контрастный для летнего цветотипа, поэтому платье понижено в выдаче",
+            "летнему цветотипу чаще подходят мягкие и приглушенные оттенки, а не слишком темные или яркие"
+          ],
+          "base_percent_before_diversity": 44,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 10,
+          "dress_id": 13,
+          "name": "Бордовый платье мини А-силуэта с V-образным вырезом",
+          "match_percent": 43,
+          "match_level": "low",
+          "raw_score": 68,
+          "style_score": 86,
+          "technical_score": 15,
+          "negative_score": -33,
+          "price_rub": 857,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бордовый",
+          "color_temperature": "cold",
+          "color_brightness": "deep",
+          "length": "mini",
+          "silhouette": "a-line",
+          "neckline": "v-neck",
+          "sleeve_length": "sleeveless",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «груша»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "температура цвета подходит предполагаемому цветотипу",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: S",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "цена выходит за указанный бюджет",
+            "яркость/глубина цвета менее удачна для группы «летний цветотип»",
+            "летнему цветотипу чаще подходят мягкие и приглушенные оттенки, а не слишком темные или яркие",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 59,
+          "diversity_penalty": 16
+        }
+      ]
+    },
+    {
+      "user_id": "user_02",
+      "user_name": "Средний рост, песочные часы, зимний цветотип",
+      "status": "ok",
+      "input": {
+        "id": "user_02",
+        "name": "Средний рост, песочные часы, зимний цветотип",
+        "height_cm": 168,
+        "weight_kg": 60,
+        "size": "M",
+        "body_type": "песочные часы",
+        "hair_color": "темно-коричневый",
+        "eye_color": "темно-карие",
+        "skin_tone": "светлая",
+        "skin_undertone": "холодный",
+        "vein_color": "синие",
+        "hair_length_or_hairstyle": "до плеч",
+        "hair_type": "гладкие",
+        "preferred_colors": [
+          "черный",
+          "бордовый",
+          "синий"
+        ],
+        "budget_min": 1500,
+        "budget_max": 9000,
+        "season": "demi",
+        "tan_behavior": "ровный шоколадный или загар отсутствует",
+        "freckles": "нет",
+        "lip_color": "ярко-розовый",
+        "brows_lashes": "угольно-черные или насыщенно-коричневые",
+        "color_type": null,
+        "freckles_tan_blush": null,
+        "contrast_saturation": null,
+        "metals_tests": null
+      },
+      "profile": {
+        "input": {
+          "id": "user_02",
+          "name": "Средний рост, песочные часы, зимний цветотип",
+          "height_cm": 168,
+          "weight_kg": 60,
+          "size": "M",
+          "body_type": "песочные часы",
+          "hair_color": "темно-коричневый",
+          "eye_color": "темно-карие",
+          "skin_tone": "светлая",
+          "skin_undertone": "холодный",
+          "vein_color": "синие",
+          "hair_length_or_hairstyle": "до плеч",
+          "hair_type": "гладкие",
+          "preferred_colors": [
+            "черный",
+            "бордовый",
+            "синий"
+          ],
+          "budget_min": 1500,
+          "budget_max": 9000,
+          "season": "demi",
+          "tan_behavior": "ровный шоколадный или загар отсутствует",
+          "freckles": "нет",
+          "lip_color": "ярко-розовый",
+          "brows_lashes": "угольно-черные или насыщенно-коричневые",
+          "color_type": null,
+          "freckles_tan_blush": null,
+          "contrast_saturation": null,
+          "metals_tests": null
+        },
+        "heightCategory": "medium_tall",
+        "heightLabel": "166–170 см",
+        "weightLabel": "55–65 кг",
+        "bodyType": "песочные часы",
+        "colorType": {
+          "id": "temnaya_zima",
+          "displayName": "Dark Winter / Тёмная зима",
+          "sourceLabel": "Тёмная зима / Dark Winter",
+          "group": "winter",
+          "confidence": "high",
+          "matchedFields": [
+            "skin_tone",
+            "skin_undertone",
+            "vein_color",
+            "eye_color",
+            "brows_lashes",
+            "tan_behavior",
+            "freckles",
+            "lip_color"
+          ]
+        },
+        "preferredColors": [
+          "Глубокие холодные и нейтрально-холодные цвета: чёрный",
+          "угольный",
+          "графит",
+          "чистый белый в контрасте",
+          "ледяные пастели",
+          "тёмный navy",
+          "midnight blue",
+          "тёмный изумруд",
+          "холодный teal",
+          "глубокий фиолетовый",
+          "баклажан холодный",
+          "слива",
+          "бургунди",
+          "клюква",
+          "малиновый тёмный",
+          "рубиновый",
+          "холодный шоколад"
+        ],
+        "preferredColorTemperatures": [
+          "cold",
+          "neutral"
+        ],
+        "preferredColorBrightness": [
+          "bright",
+          "deep",
+          "light"
+        ],
+        "preferredLengths": [
+          "midi",
+          "ankle",
+          "maxi",
+          "knee"
+        ],
+        "avoidLengths": [
+          "mini"
+        ],
+        "preferredSilhouettes": [
+          "straight",
+          "slip-dress",
+          "fit-and-flare",
+          "wrap",
+          "sheath",
+          "shirt-dress",
+          "belted"
+        ],
+        "avoidSilhouettes": [],
+        "preferredNecklines": [
+          "v-neck",
+          "square",
+          "boat",
+          "sweetheart",
+          "strapless",
+          "round",
+          "high-neck",
+          "halter",
+          "off-shoulder",
+          "one-shoulder",
+          "illusion_illyuziya_prozrachnaya_setka_kruzhevo_u_shei",
+          "cowl",
+          "queen_anne_korolevy_anny",
+          "dekorativnyi_vyrez_kruzhevo_ryushi_scallop_slozhnaya_otdelka",
+          "backless"
+        ],
+        "avoidNecklines": [],
+        "preferredSleeves": [
+          "short",
+          "three-quarter",
+          "long"
+        ],
+        "preferredFits": [
+          "semi-fitted",
+          "fitted"
+        ],
+        "avoidFits": [],
+        "preferredPrintsAndLines": [],
+        "avoidPrintsAndLines": [],
+        "waistAccentRecommended": true,
+        "technicalConstraints": {
+          "size": "M",
+          "budgetMin": 1500,
+          "budgetMax": 9000,
+          "season": "demi"
+        },
+        "notes": [
+          "Рост: Можно естественную, завышенную или слегка заниженную талию",
+          "Вес: Плотный трикотаж, вискоза, креп, костюмная ткань, пояс"
+        ]
+      },
+      "total_dresses_in_database": 50,
+      "returned_recommendations": 10,
+      "note": "Результат является вероятностной рекомендацией и не гарантирует идеальную посадку платья.",
+      "recommendations": [
+        {
+          "rank": 1,
+          "dress_id": 22,
+          "name": "Черный платье мини с запахом с круглым вырезом",
+          "match_percent": 97,
+          "match_level": "very_high",
+          "raw_score": 112,
+          "style_score": 106,
+          "technical_score": 20,
+          "negative_score": -14,
+          "price_rub": 2624,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "черный",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "mini",
+          "silhouette": "wrap",
+          "neckline": "round",
+          "sleeve_length": "short",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Dark Winter / Тёмная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "длина платья входит в список нежелательных для данного роста"
+          ],
+          "base_percent_before_diversity": 97,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 2,
+          "dress_id": 34,
+          "name": "Черный платье мини с пышной юбкой с V-образным вырезом",
+          "match_percent": 85,
+          "match_level": "very_high",
+          "raw_score": 112,
+          "style_score": 106,
+          "technical_score": 20,
+          "negative_score": -14,
+          "price_rub": 2324,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "черный",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "mini",
+          "silhouette": "fit-and-flare",
+          "neckline": "v-neck",
+          "sleeve_length": "short",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Dark Winter / Тёмная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "длина платья входит в список нежелательных для данного роста",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 97,
+          "diversity_penalty": 12
+        },
+        {
+          "rank": 3,
+          "dress_id": 30,
+          "name": "Изумрудный платье макси с запахом с вырезом лодочка",
+          "match_percent": 82,
+          "match_level": "high",
+          "raw_score": 119,
+          "style_score": 132,
+          "technical_score": 12,
+          "negative_score": -25,
+          "price_rub": 2099,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "изумрудный",
+          "color_temperature": "cold",
+          "color_brightness": "bright",
+          "length": "maxi",
+          "silhouette": "wrap",
+          "neckline": "boat",
+          "sleeve_length": "short",
+          "fit": "fitted",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Dark Winter / Тёмная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 4,
+          "dress_id": 9,
+          "name": "Темное платье миди с мелким цветочным принтом",
+          "match_percent": 82,
+          "match_level": "high",
+          "raw_score": 109,
+          "style_score": 122,
+          "technical_score": 12,
+          "negative_score": -25,
+          "price_rub": 2174,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "синий",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "midi",
+          "silhouette": "wrap",
+          "neckline": "v-neck",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1L805_33482471_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Dark Winter / Тёмная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 5,
+          "dress_id": 50,
+          "name": "Красный платье миди с пышной юбкой с круглым вырезом",
+          "match_percent": 82,
+          "match_level": "high",
+          "raw_score": 105,
+          "style_score": 118,
+          "technical_score": 12,
+          "negative_score": -25,
+          "price_rub": 1950,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "красный",
+          "color_temperature": "cold",
+          "color_brightness": "bright",
+          "length": "midi",
+          "silhouette": "fit-and-flare",
+          "neckline": "round",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 6,
+          "dress_id": 37,
+          "name": "Бордовый платье мини А-силуэта с вырезом лодочка",
+          "match_percent": 73,
+          "match_level": "high",
+          "raw_score": 84,
+          "style_score": 78,
+          "technical_score": 20,
+          "negative_score": -14,
+          "price_rub": 2324,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бордовый",
+          "color_temperature": "cold",
+          "color_brightness": "deep",
+          "length": "mini",
+          "silhouette": "a-line",
+          "neckline": "boat",
+          "sleeve_length": "sleeveless",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит предполагаемому цветотипу: Dark Winter / Тёмная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "длина платья входит в список нежелательных для данного роста"
+          ],
+          "base_percent_before_diversity": 73,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 7,
+          "dress_id": 42,
+          "name": "Изумрудный платье макси с пышной юбкой с квадратным вырезом",
+          "match_percent": 70,
+          "match_level": "high",
+          "raw_score": 119,
+          "style_score": 132,
+          "technical_score": 12,
+          "negative_score": -25,
+          "price_rub": 2849,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "изумрудный",
+          "color_temperature": "cold",
+          "color_brightness": "bright",
+          "length": "maxi",
+          "silhouette": "fit-and-flare",
+          "neckline": "square",
+          "sleeve_length": "short",
+          "fit": "fitted",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Dark Winter / Тёмная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 12
+        },
+        {
+          "rank": 8,
+          "dress_id": 46,
+          "name": "Черный платье мини с запахом с открытыми плечами",
+          "match_percent": 69,
+          "match_level": "medium",
+          "raw_score": 112,
+          "style_score": 106,
+          "technical_score": 20,
+          "negative_score": -14,
+          "price_rub": 1574,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "черный",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "mini",
+          "silhouette": "wrap",
+          "neckline": "off-shoulder",
+          "sleeve_length": "short",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Dark Winter / Тёмная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "длина платья входит в список нежелательных для данного роста",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 97,
+          "diversity_penalty": 28
+        },
+        {
+          "rank": 9,
+          "dress_id": 29,
+          "name": "Темно-синий платье миди А-силуэта с круглым вырезом",
+          "match_percent": 67,
+          "match_level": "medium",
+          "raw_score": 77,
+          "style_score": 105,
+          "technical_score": 7,
+          "negative_score": -35,
+          "price_rub": 779,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "темно-синий",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "midi",
+          "silhouette": "a-line",
+          "neckline": "round",
+          "sleeve_length": "sleeveless",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Dark Winter / Тёмная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "цена выходит за указанный бюджет"
+          ],
+          "base_percent_before_diversity": 67,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 10,
+          "dress_id": 38,
+          "name": "Красный платье миди с запахом с высоким воротом",
+          "match_percent": 66,
+          "match_level": "medium",
+          "raw_score": 102,
+          "style_score": 115,
+          "technical_score": 12,
+          "negative_score": -25,
+          "price_rub": 4124,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "красный",
+          "color_temperature": "cold",
+          "color_brightness": "bright",
+          "length": "midi",
+          "silhouette": "wrap",
+          "neckline": "high-neck",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «песочные часы»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 16
+        }
+      ]
+    },
+    {
+      "user_id": "user_03",
+      "user_name": "Высокий рост, прямоугольник, весна",
+      "status": "ok",
+      "input": {
+        "id": "user_03",
+        "name": "Высокий рост, прямоугольник, весна",
+        "height_cm": 178,
+        "weight_kg": 63,
+        "size": "M",
+        "body_type": "прямоугольник",
+        "hair_color": "теплый блонд",
+        "eye_color": "голубые",
+        "skin_tone": "светлая",
+        "skin_undertone": "теплый",
+        "vein_color": "зеленоватые",
+        "hair_length_or_hairstyle": "средняя длина",
+        "hair_type": "волнистые",
+        "preferred_colors": [
+          "бежевый",
+          "персиковый",
+          "голубой"
+        ],
+        "budget_min": 2000,
+        "budget_max": 10000,
+        "season": "spring",
+        "tan_behavior": "медовый или золотисто-коричневый",
+        "freckles": "золотистые",
+        "lip_color": "лососевый или теплый красный",
+        "brows_lashes": "светлее волос",
+        "color_type": null,
+        "freckles_tan_blush": null,
+        "contrast_saturation": null,
+        "metals_tests": null
+      },
+      "profile": {
+        "input": {
+          "id": "user_03",
+          "name": "Высокий рост, прямоугольник, весна",
+          "height_cm": 178,
+          "weight_kg": 63,
+          "size": "M",
+          "body_type": "прямоугольник",
+          "hair_color": "теплый блонд",
+          "eye_color": "голубые",
+          "skin_tone": "светлая",
+          "skin_undertone": "теплый",
+          "vein_color": "зеленоватые",
+          "hair_length_or_hairstyle": "средняя длина",
+          "hair_type": "волнистые",
+          "preferred_colors": [
+            "бежевый",
+            "персиковый",
+            "голубой"
+          ],
+          "budget_min": 2000,
+          "budget_max": 10000,
+          "season": "spring",
+          "tan_behavior": "медовый или золотисто-коричневый",
+          "freckles": "золотистые",
+          "lip_color": "лососевый или теплый красный",
+          "brows_lashes": "светлее волос",
+          "color_type": null,
+          "freckles_tan_blush": null,
+          "contrast_saturation": null,
+          "metals_tests": null
+        },
+        "heightCategory": "tall",
+        "heightLabel": "176–180 см",
+        "weightLabel": "55–65 кг",
+        "bodyType": "прямоугольник",
+        "colorType": {
+          "id": "svetlaya_vesna",
+          "displayName": "Light Spring / Светлая весна",
+          "sourceLabel": "Светлая весна / Light Spring",
+          "group": "spring",
+          "confidence": "high",
+          "matchedFields": [
+            "skin_tone",
+            "skin_undertone",
+            "vein_color",
+            "eye_color",
+            "brows_lashes",
+            "tan_behavior",
+            "freckles",
+            "lip_color"
+          ]
+        },
+        "preferredColors": [
+          "Светлые тёплые и нейтрально-тёплые оттенки: персиковый",
+          "абрикосовый",
+          "светлый коралл",
+          "тёплый розовый",
+          "кремовый",
+          "ванильный",
+          "светлый жёлтый",
+          "травяной зелёный",
+          "мятно-тёплый",
+          "светлая бирюза",
+          "аквамарин",
+          "тёплый светло-голубой",
+          "camel light",
+          "светлый беж",
+          "мягкий золотистый коричневый"
+        ],
+        "preferredColorTemperatures": [
+          "warm",
+          "neutral"
+        ],
+        "preferredColorBrightness": [
+          "soft",
+          "bright",
+          "deep",
+          "light"
+        ],
+        "preferredLengths": [
+          "midi",
+          "ankle",
+          "maxi",
+          "knee"
+        ],
+        "avoidLengths": [],
+        "preferredSilhouettes": [
+          "fit-and-flare",
+          "wrap",
+          "sheath",
+          "shirt-dress",
+          "draped",
+          "peplum"
+        ],
+        "avoidSilhouettes": [
+          "straight",
+          "belted"
+        ],
+        "preferredNecklines": [
+          "v-neck",
+          "square",
+          "boat",
+          "strapless",
+          "sweetheart",
+          "round",
+          "high-neck",
+          "halter",
+          "off-shoulder",
+          "one-shoulder",
+          "illusion_illyuziya_prozrachnaya_setka_kruzhevo_u_shei",
+          "cowl",
+          "queen_anne_korolevy_anny",
+          "dekorativnyi_vyrez_kruzhevo_ryushi_scallop_slozhnaya_otdelka",
+          "backless"
+        ],
+        "avoidNecklines": [],
+        "preferredSleeves": [
+          "long",
+          "short",
+          "three-quarter"
+        ],
+        "preferredFits": [],
+        "avoidFits": [],
+        "preferredPrintsAndLines": [],
+        "avoidPrintsAndLines": [],
+        "waistAccentRecommended": true,
+        "technicalConstraints": {
+          "size": "M",
+          "budgetMin": 2000,
+          "budgetMax": 10000,
+          "season": "spring"
+        },
+        "notes": [
+          "Рост: Естественная или чуть заниженная талия",
+          "Вес: Плотный трикотаж, вискоза, креп, костюмная ткань, пояс"
+        ]
+      },
+      "total_dresses_in_database": 50,
+      "returned_recommendations": 10,
+      "note": "Результат является вероятностной рекомендацией и не гарантирует идеальную посадку платья.",
+      "recommendations": [
+        {
+          "rank": 1,
+          "dress_id": 7,
+          "name": "Бежевое платье-рубашка с разрезом",
+          "match_percent": 98,
+          "match_level": "very_high",
+          "raw_score": 132,
+          "style_score": 112,
+          "technical_score": 20,
+          "negative_score": 0,
+          "price_rub": 3224,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бежевый",
+          "color_temperature": "neutral",
+          "color_brightness": "light",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "collar",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1L5B3_33244997_1_v3_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «прямоугольник»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Light Spring / Светлая весна",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под весенний цветотип",
+            "оттенок входит в характерную палитру для группы «весенний цветотип»",
+            "светлый мягкий оттенок хорошо поддерживает весенний цветотип"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [],
+          "base_percent_before_diversity": 98,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 2,
+          "dress_id": 28,
+          "name": "Молочный платье мини рубашка с квадратным вырезом",
+          "match_percent": 98,
+          "match_level": "very_high",
+          "raw_score": 113,
+          "style_score": 99,
+          "technical_score": 17,
+          "negative_score": -3,
+          "price_rub": 2099,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "молочный",
+          "color_temperature": "warm",
+          "color_brightness": "light",
+          "length": "mini",
+          "silhouette": "shirt-dress",
+          "neckline": "square",
+          "sleeve_length": "long",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «прямоугольник»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Light Spring / Светлая весна",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под весенний цветотип",
+            "оттенок входит в характерную палитру для группы «весенний цветотип»",
+            "светлый мягкий оттенок хорошо поддерживает весенний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "сезон платья может не совпадать с указанным сезоном"
+          ],
+          "base_percent_before_diversity": 98,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 3,
+          "dress_id": 39,
+          "name": "Белый платье макси футляр с открытыми плечами",
+          "match_percent": 77,
+          "match_level": "high",
+          "raw_score": 88,
+          "style_score": 107,
+          "technical_score": 12,
+          "negative_score": -31,
+          "price_rub": 2324,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "белый",
+          "color_temperature": "neutral",
+          "color_brightness": "light",
+          "length": "maxi",
+          "silhouette": "sheath",
+          "neckline": "off-shoulder",
+          "sleeve_length": "three-quarter",
+          "fit": "fitted",
+          "waist_accent": false,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «прямоугольник»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Light Spring / Светлая весна",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под весенний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры"
+          ],
+          "base_percent_before_diversity": 77,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 4,
+          "dress_id": 45,
+          "name": "Персиковый платье макси А-силуэта с высоким воротом",
+          "match_percent": 77,
+          "match_level": "high",
+          "raw_score": 89,
+          "style_score": 102,
+          "technical_score": 12,
+          "negative_score": -25,
+          "price_rub": 2099,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "персиковый",
+          "color_temperature": "warm",
+          "color_brightness": "light",
+          "length": "maxi",
+          "silhouette": "a-line",
+          "neckline": "high-neck",
+          "sleeve_length": "sleeveless",
+          "fit": "fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Light Spring / Светлая весна",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под весенний цветотип",
+            "оттенок входит в характерную палитру для группы «весенний цветотип»",
+            "светлый мягкий оттенок хорошо поддерживает весенний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M"
+          ],
+          "base_percent_before_diversity": 77,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 5,
+          "dress_id": 47,
+          "name": "Бежевый платье миди футляр с американской проймой",
+          "match_percent": 72,
+          "match_level": "high",
+          "raw_score": 97,
+          "style_score": 122,
+          "technical_score": 9,
+          "negative_score": -34,
+          "price_rub": 2100,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "бежевый",
+          "color_temperature": "neutral",
+          "color_brightness": "light",
+          "length": "midi",
+          "silhouette": "sheath",
+          "neckline": "halter",
+          "sleeve_length": "three-quarter",
+          "fit": "semi-fitted",
+          "waist_accent": false,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «прямоугольник»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Light Spring / Светлая весна",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под весенний цветотип",
+            "оттенок входит в характерную палитру для группы «весенний цветотип»",
+            "светлый мягкий оттенок хорошо поддерживает весенний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "сезон платья может не совпадать с указанным сезоном",
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 10
+        },
+        {
+          "rank": 6,
+          "dress_id": 2,
+          "name": "Голубое платье-рубашка миди с поясом",
+          "match_percent": 69,
+          "match_level": "medium",
+          "raw_score": 84,
+          "style_score": 107,
+          "technical_score": 12,
+          "negative_score": -35,
+          "price_rub": 2174,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "голубой",
+          "color_temperature": "cold",
+          "color_brightness": "light",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "v-neck",
+          "sleeve_length": "sleeveless",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KX9D_33371529_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «прямоугольник»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Light Spring / Светлая весна",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "оттенок входит в характерную палитру для группы «весенний цветотип»",
+            "светлый мягкий оттенок хорошо поддерживает весенний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "температура цвета может быть менее удачной для предполагаемого цветотипа",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 73,
+          "diversity_penalty": 4
+        },
+        {
+          "rank": 7,
+          "dress_id": 11,
+          "name": "Розовое платье миди с V-вырезом",
+          "match_percent": 63,
+          "match_level": "medium",
+          "raw_score": 72,
+          "style_score": 95,
+          "technical_score": 12,
+          "negative_score": -35,
+          "price_rub": 2099,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "розовый",
+          "color_temperature": "cold",
+          "color_brightness": "soft",
+          "length": "midi",
+          "silhouette": "fit-and-flare",
+          "neckline": "v-neck",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KP3L_32939304_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «прямоугольник»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "оттенок входит в характерную палитру для группы «весенний цветотип»",
+            "светлый мягкий оттенок хорошо поддерживает весенний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "температура цвета может быть менее удачной для предполагаемого цветотипа"
+          ],
+          "base_percent_before_diversity": 63,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 8,
+          "dress_id": 10,
+          "name": "Голубое облегающее платье макси",
+          "match_percent": 63,
+          "match_level": "medium",
+          "raw_score": 83,
+          "style_score": 79,
+          "technical_score": 20,
+          "negative_score": -16,
+          "price_rub": 3224,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "голубой",
+          "color_temperature": "cold",
+          "color_brightness": "light",
+          "length": "maxi",
+          "silhouette": "sheath",
+          "neckline": "v-neck",
+          "sleeve_length": "long",
+          "fit": "fitted",
+          "waist_accent": false,
+          "season": [
+            "spring"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KZ7T_33371791_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "оттенок входит в характерную палитру для группы «весенний цветотип»",
+            "светлый мягкий оттенок хорошо поддерживает весенний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры",
+            "температура цвета может быть менее удачной для предполагаемого цветотипа",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 72,
+          "diversity_penalty": 9
+        },
+        {
+          "rank": 9,
+          "dress_id": 33,
+          "name": "Персиковый платье макси трапеция с американской проймой",
+          "match_percent": 60,
+          "match_level": "medium",
+          "raw_score": 83,
+          "style_score": 108,
+          "technical_score": 9,
+          "negative_score": -34,
+          "price_rub": 3439,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "персиковый",
+          "color_temperature": "warm",
+          "color_brightness": "light",
+          "length": "maxi",
+          "silhouette": "trapeze",
+          "neckline": "halter",
+          "sleeve_length": "sleeveless",
+          "fit": "fitted",
+          "waist_accent": false,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «прямоугольник»",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Light Spring / Светлая весна",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под весенний цветотип",
+            "оттенок входит в характерную палитру для группы «весенний цветотип»",
+            "светлый мягкий оттенок хорошо поддерживает весенний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "сезон платья может не совпадать с указанным сезоном",
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 72,
+          "diversity_penalty": 12
+        },
+        {
+          "rank": 10,
+          "dress_id": 27,
+          "name": "Белый платье макси комбинация с V-образным вырезом",
+          "match_percent": 55,
+          "match_level": "medium",
+          "raw_score": 77,
+          "style_score": 96,
+          "technical_score": 12,
+          "negative_score": -31,
+          "price_rub": 2174,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "белый",
+          "color_temperature": "neutral",
+          "color_brightness": "light",
+          "length": "maxi",
+          "silhouette": "slip",
+          "neckline": "v-neck",
+          "sleeve_length": "three-quarter",
+          "fit": "fitted",
+          "waist_accent": false,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «прямоугольник»",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 55–65 кг",
+            "платье подходит предполагаемому цветотипу: Light Spring / Светлая весна",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под весенний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 67,
+          "diversity_penalty": 12
+        }
+      ]
+    },
+    {
+      "user_id": "user_04",
+      "user_name": "Средний рост, яблоко, осенний цветотип",
+      "status": "ok",
+      "input": {
+        "id": "user_04",
+        "name": "Средний рост, яблоко, осенний цветотип",
+        "height_cm": 164,
+        "weight_kg": 75,
+        "size": "L",
+        "body_type": "яблоко",
+        "hair_color": "каштановый",
+        "eye_color": "карие",
+        "skin_tone": "средняя",
+        "skin_undertone": "теплый",
+        "vein_color": "зеленоватые",
+        "hair_length_or_hairstyle": "короткие",
+        "hair_type": "объемные",
+        "preferred_colors": [
+          "коричневый",
+          "зеленый",
+          "бежевый"
+        ],
+        "budget_min": 1000,
+        "budget_max": 8000,
+        "season": "autumn",
+        "tan_behavior": "медовый или золотисто-коричневый",
+        "freckles": "много золотисто-коричневых",
+        "lip_color": "лососевый или теплый красный",
+        "brows_lashes": "немного ярче волос или наоборот",
+        "color_type": null,
+        "freckles_tan_blush": null,
+        "contrast_saturation": null,
+        "metals_tests": null
+      },
+      "profile": {
+        "input": {
+          "id": "user_04",
+          "name": "Средний рост, яблоко, осенний цветотип",
+          "height_cm": 164,
+          "weight_kg": 75,
+          "size": "L",
+          "body_type": "яблоко",
+          "hair_color": "каштановый",
+          "eye_color": "карие",
+          "skin_tone": "средняя",
+          "skin_undertone": "теплый",
+          "vein_color": "зеленоватые",
+          "hair_length_or_hairstyle": "короткие",
+          "hair_type": "объемные",
+          "preferred_colors": [
+            "коричневый",
+            "зеленый",
+            "бежевый"
+          ],
+          "budget_min": 1000,
+          "budget_max": 8000,
+          "season": "autumn",
+          "tan_behavior": "медовый или золотисто-коричневый",
+          "freckles": "много золотисто-коричневых",
+          "lip_color": "лососевый или теплый красный",
+          "brows_lashes": "немного ярче волос или наоборот",
+          "color_type": null,
+          "freckles_tan_blush": null,
+          "contrast_saturation": null,
+          "metals_tests": null
+        },
+        "heightCategory": "medium",
+        "heightLabel": "161–165 см",
+        "weightLabel": "65–75 кг",
+        "bodyType": "яблоко",
+        "colorType": {
+          "id": "myagkaya_osen",
+          "displayName": "Soft Autumn / Мягкая осень",
+          "sourceLabel": "Мягкая осень / Soft Autumn",
+          "group": "autumn",
+          "confidence": "high",
+          "matchedFields": [
+            "hair_color",
+            "skin_tone",
+            "skin_undertone",
+            "eye_color",
+            "brows_lashes",
+            "tan_behavior",
+            "freckles",
+            "lip_color"
+          ]
+        },
+        "preferredColors": [
+          "Мягкие тёплые землистые оттенки: camel",
+          "тёплый taupe",
+          "mushroom",
+          "пшеничный",
+          "овсяный",
+          "беж",
+          "мягкий коричневый",
+          "mocha",
+          "карамель",
+          "dusty peach",
+          "muted coral",
+          "терракота мягкая",
+          "приглушённый кирпичный",
+          "шалфей",
+          "оливковый",
+          "хаки",
+          "мох",
+          "muted teal",
+          "тёплый серо-зелёный",
+          "мягкая горчица"
+        ],
+        "preferredColorTemperatures": [
+          "warm"
+        ],
+        "preferredColorBrightness": [
+          "soft",
+          "bright"
+        ],
+        "preferredLengths": [
+          "mini",
+          "knee",
+          "midi",
+          "maxi",
+          "ankle"
+        ],
+        "avoidLengths": [],
+        "preferredSilhouettes": [
+          "a-line",
+          "wrap",
+          "sheath",
+          "trapeze",
+          "empire"
+        ],
+        "avoidSilhouettes": [
+          "belted"
+        ],
+        "preferredNecklines": [
+          "v-neck",
+          "round",
+          "strapless",
+          "sweetheart",
+          "square",
+          "boat",
+          "high-neck",
+          "halter",
+          "off-shoulder",
+          "one-shoulder",
+          "illusion_illyuziya_prozrachnaya_setka_kruzhevo_u_shei",
+          "cowl",
+          "queen_anne_korolevy_anny",
+          "dekorativnyi_vyrez_kruzhevo_ryushi_scallop_slozhnaya_otdelka",
+          "backless"
+        ],
+        "avoidNecklines": [],
+        "preferredSleeves": [
+          "short",
+          "three-quarter",
+          "long"
+        ],
+        "preferredFits": [
+          "semi-fitted"
+        ],
+        "avoidFits": [
+          "tight"
+        ],
+        "preferredPrintsAndLines": [],
+        "avoidPrintsAndLines": [],
+        "waistAccentRecommended": true,
+        "technicalConstraints": {
+          "size": "L",
+          "budgetMin": 1000,
+          "budgetMax": 8000,
+          "season": "autumn"
+        },
+        "notes": [
+          "Рост: Естественная талия или слегка завышенная",
+          "Вес: Матовые ткани средней плотности, диагональная драпировка, вертикальные швы"
+        ]
+      },
+      "total_dresses_in_database": 50,
+      "returned_recommendations": 10,
+      "note": "Результат является вероятностной рекомендацией и не гарантирует идеальную посадку платья.",
+      "recommendations": [
+        {
+          "rank": 1,
+          "dress_id": 4,
+          "name": "Шоколадное платье-рубашка миди",
+          "match_percent": 98,
+          "match_level": "very_high",
+          "raw_score": 136,
+          "style_score": 116,
+          "technical_score": 20,
+          "negative_score": 0,
+          "price_rub": 2324,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "коричневый",
+          "color_temperature": "warm",
+          "color_brightness": "deep",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "collar",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "autumn"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KA4H_32882925_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «яблоко»",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: Soft Autumn / Мягкая осень",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под осенний цветотип",
+            "оттенок входит в характерную палитру для группы «осенний цветотип»",
+            "оттенок хорошо совпадает с теплой природной палитрой осеннего цветотипа",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: L",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [],
+          "base_percent_before_diversity": 98,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 2,
+          "dress_id": 31,
+          "name": "Оливковый платье мини футляр с высоким воротом",
+          "match_percent": 82,
+          "match_level": "high",
+          "raw_score": 107,
+          "style_score": 115,
+          "technical_score": 17,
+          "negative_score": -25,
+          "price_rub": 2849,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "оливковый",
+          "color_temperature": "warm",
+          "color_brightness": "soft",
+          "length": "mini",
+          "silhouette": "sheath",
+          "neckline": "high-neck",
+          "sleeve_length": "three-quarter",
+          "fit": "loose",
+          "waist_accent": false,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: Soft Autumn / Мягкая осень",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет не только по температуре, но и по насыщенности подходит под осенний цветотип",
+            "оттенок входит в характерную палитру для группы «осенний цветотип»",
+            "оттенок хорошо совпадает с теплой природной палитрой осеннего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: L",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "сезон платья может не совпадать с указанным сезоном",
+            "платье может быть менее удачным для типа фигуры «яблоко»",
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 3,
+          "dress_id": 36,
+          "name": "Хаки платье макси рубашка с круглым вырезом",
+          "match_percent": 82,
+          "match_level": "high",
+          "raw_score": 94,
+          "style_score": 113,
+          "technical_score": 9,
+          "negative_score": -28,
+          "price_rub": 2417,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "хаки",
+          "color_temperature": "warm",
+          "color_brightness": "soft",
+          "length": "maxi",
+          "silhouette": "shirt-dress",
+          "neckline": "round",
+          "sleeve_length": "long",
+          "fit": "fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «яблоко»",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Soft Autumn / Мягкая осень",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет не только по температуре, но и по насыщенности подходит под осенний цветотип",
+            "оттенок входит в характерную палитру для группы «осенний цветотип»",
+            "оттенок хорошо совпадает с теплой природной палитрой осеннего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: L",
+            "сезон платья может не совпадать с указанным сезоном"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 4,
+          "dress_id": 1,
+          "name": "Коричневое платье миди в горох с запахом",
+          "match_percent": 80,
+          "match_level": "high",
+          "raw_score": 121,
+          "style_score": 123,
+          "technical_score": 17,
+          "negative_score": -19,
+          "price_rub": 1349,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "коричневый",
+          "color_temperature": "warm",
+          "color_brightness": "deep",
+          "length": "midi",
+          "silhouette": "wrap",
+          "neckline": "v-neck",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1EB6Q_31922892_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: Soft Autumn / Мягкая осень",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под осенний цветотип",
+            "оттенок входит в характерную палитру для группы «осенний цветотип»",
+            "оттенок хорошо совпадает с теплой природной палитрой осеннего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: L",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "сезон платья может не совпадать с указанным сезоном",
+            "платье может быть менее удачным для типа фигуры «яблоко»",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 90,
+          "diversity_penalty": 10
+        },
+        {
+          "rank": 5,
+          "dress_id": 19,
+          "name": "Оливковый платье мини комбинация с американской проймой",
+          "match_percent": 70,
+          "match_level": "high",
+          "raw_score": 97,
+          "style_score": 99,
+          "technical_score": 20,
+          "negative_score": -22,
+          "price_rub": 2174,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "оливковый",
+          "color_temperature": "warm",
+          "color_brightness": "soft",
+          "length": "mini",
+          "silhouette": "slip",
+          "neckline": "halter",
+          "sleeve_length": "three-quarter",
+          "fit": "loose",
+          "waist_accent": false,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: Soft Autumn / Мягкая осень",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет не только по температуре, но и по насыщенности подходит под осенний цветотип",
+            "оттенок входит в характерную палитру для группы «осенний цветотип»",
+            "оттенок хорошо совпадает с теплой природной палитрой осеннего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: L",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "платье может быть менее удачным для типа фигуры «яблоко»",
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 12
+        },
+        {
+          "rank": 6,
+          "dress_id": 6,
+          "name": "Терракотовый сарафан миди с поясом",
+          "match_percent": 70,
+          "match_level": "high",
+          "raw_score": 80,
+          "style_score": 99,
+          "technical_score": 9,
+          "negative_score": -28,
+          "price_rub": 2399,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "терракотовый",
+          "color_temperature": "warm",
+          "color_brightness": "deep",
+          "length": "midi",
+          "silhouette": "a-line",
+          "neckline": "round",
+          "sleeve_length": "sleeveless",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KI7H_33065572_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под осенний цветотип",
+            "оттенок входит в характерную палитру для группы «осенний цветотип»",
+            "оттенок хорошо совпадает с теплой природной палитрой осеннего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: L",
+            "сезон платья может не совпадать с указанным сезоном"
+          ],
+          "base_percent_before_diversity": 70,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 7,
+          "dress_id": 7,
+          "name": "Бежевое платье-рубашка с разрезом",
+          "match_percent": 64,
+          "match_level": "medium",
+          "raw_score": 82,
+          "style_score": 94,
+          "technical_score": 17,
+          "negative_score": -29,
+          "price_rub": 3224,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бежевый",
+          "color_temperature": "neutral",
+          "color_brightness": "light",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "collar",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1L5B3_33244997_1_v3_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «яблоко»",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: Soft Autumn / Мягкая осень",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "оттенок входит в характерную палитру для группы «осенний цветотип»",
+            "оттенок хорошо совпадает с теплой природной палитрой осеннего цветотипа",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: L",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "сезон платья может не совпадать с указанным сезоном",
+            "температура цвета может быть менее удачной для предполагаемого цветотипа",
+            "яркость/глубина цвета менее удачна для группы «осенний цветотип»",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 71,
+          "diversity_penalty": 7
+        },
+        {
+          "rank": 8,
+          "dress_id": 24,
+          "name": "Хаки платье макси прямого кроя с высоким воротом",
+          "match_percent": 58,
+          "match_level": "medium",
+          "raw_score": 80,
+          "style_score": 105,
+          "technical_score": 9,
+          "negative_score": -34,
+          "price_rub": 2849,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "хаки",
+          "color_temperature": "warm",
+          "color_brightness": "soft",
+          "length": "maxi",
+          "silhouette": "straight",
+          "neckline": "high-neck",
+          "sleeve_length": "long",
+          "fit": "fitted",
+          "waist_accent": false,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «яблоко»",
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Soft Autumn / Мягкая осень",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет не только по температуре, но и по насыщенности подходит под осенний цветотип",
+            "оттенок входит в характерную палитру для группы «осенний цветотип»",
+            "оттенок хорошо совпадает с теплой природной палитрой осеннего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: L",
+            "сезон платья может не совпадать с указанным сезоном",
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 70,
+          "diversity_penalty": 12
+        },
+        {
+          "rank": 9,
+          "dress_id": 37,
+          "name": "Бордовый платье мини А-силуэта с вырезом лодочка",
+          "match_percent": 58,
+          "match_level": "medium",
+          "raw_score": 67,
+          "style_score": 67,
+          "technical_score": 20,
+          "negative_score": -20,
+          "price_rub": 2324,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бордовый",
+          "color_temperature": "cold",
+          "color_brightness": "deep",
+          "length": "mini",
+          "silhouette": "a-line",
+          "neckline": "boat",
+          "sleeve_length": "sleeveless",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "платье подходит весовой категории: 65–75 кг",
+            "оттенок входит в характерную палитру для группы «осенний цветотип»",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: L",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "температура цвета может быть менее удачной для предполагаемого цветотипа",
+            "цвет «бордовый» может быть слишком холодным или контрастным для осеннего цветотипа"
+          ],
+          "base_percent_before_diversity": 58,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 10,
+          "dress_id": 28,
+          "name": "Молочный платье мини рубашка с квадратным вырезом",
+          "match_percent": 56,
+          "match_level": "medium",
+          "raw_score": 64,
+          "style_score": 86,
+          "technical_score": 20,
+          "negative_score": -42,
+          "price_rub": 2099,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "молочный",
+          "color_temperature": "warm",
+          "color_brightness": "light",
+          "length": "mini",
+          "silhouette": "shirt-dress",
+          "neckline": "square",
+          "sleeve_length": "long",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «яблоко»",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: средний рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: Soft Autumn / Мягкая осень",
+            "температура цвета подходит предполагаемому цветотипу",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: L",
+            "цена входит в указанный бюджет",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "яркость/глубина цвета менее удачна для группы «осенний цветотип»",
+            "цвет «молочный» может быть менее удачным для группы «осенний цветотип»",
+            "цвет «молочный» может быть слишком холодным или контрастным для осеннего цветотипа"
+          ],
+          "base_percent_before_diversity": 56,
+          "diversity_penalty": 0
+        }
+      ]
+    },
+    {
+      "user_id": "user_05",
+      "user_name": "Высокий рост, перевернутый треугольник, зима",
+      "status": "ok",
+      "input": {
+        "id": "user_05",
+        "name": "Высокий рост, перевернутый треугольник, зима",
+        "height_cm": 176,
+        "weight_kg": 68,
+        "size": "M",
+        "body_type": "перевернутый треугольник",
+        "hair_color": "черный",
+        "eye_color": "голубые",
+        "skin_tone": "светлая",
+        "skin_undertone": "холодный",
+        "vein_color": "синие",
+        "hair_length_or_hairstyle": "длинные",
+        "hair_type": "кудрявые",
+        "preferred_colors": [
+          "черный",
+          "белый",
+          "красный"
+        ],
+        "budget_min": 2500,
+        "budget_max": 12000,
+        "season": "winter",
+        "tan_behavior": "ровный шоколадный или загар отсутствует",
+        "freckles": "нет",
+        "lip_color": "ярко-розовый",
+        "brows_lashes": "угольно-черные или насыщенно-коричневые",
+        "color_type": null,
+        "freckles_tan_blush": null,
+        "contrast_saturation": null,
+        "metals_tests": null
+      },
+      "profile": {
+        "input": {
+          "id": "user_05",
+          "name": "Высокий рост, перевернутый треугольник, зима",
+          "height_cm": 176,
+          "weight_kg": 68,
+          "size": "M",
+          "body_type": "перевернутый треугольник",
+          "hair_color": "черный",
+          "eye_color": "голубые",
+          "skin_tone": "светлая",
+          "skin_undertone": "холодный",
+          "vein_color": "синие",
+          "hair_length_or_hairstyle": "длинные",
+          "hair_type": "кудрявые",
+          "preferred_colors": [
+            "черный",
+            "белый",
+            "красный"
+          ],
+          "budget_min": 2500,
+          "budget_max": 12000,
+          "season": "winter",
+          "tan_behavior": "ровный шоколадный или загар отсутствует",
+          "freckles": "нет",
+          "lip_color": "ярко-розовый",
+          "brows_lashes": "угольно-черные или насыщенно-коричневые",
+          "color_type": null,
+          "freckles_tan_blush": null,
+          "contrast_saturation": null,
+          "metals_tests": null
+        },
+        "heightCategory": "tall",
+        "heightLabel": "176–180 см",
+        "weightLabel": "65–75 кг",
+        "bodyType": "перевёрнутый треугольник",
+        "colorType": {
+          "id": "holodnaya_zima",
+          "displayName": "True Winter / Холодная зима",
+          "sourceLabel": "Холодная зима / True Winter",
+          "group": "winter",
+          "confidence": "high",
+          "matchedFields": [
+            "hair_color",
+            "skin_tone",
+            "skin_undertone",
+            "vein_color",
+            "eye_color",
+            "brows_lashes",
+            "tan_behavior",
+            "freckles",
+            "lip_color"
+          ]
+        },
+        "preferredColors": [
+          "Чистые холодные контрастные цвета: чёрный",
+          "оптический белый",
+          "ледяной розовый",
+          "ледяной голубой",
+          "кобальт",
+          "royal blue",
+          "сапфир",
+          "чистый красный с синим подтоном",
+          "фуксия",
+          "magenta",
+          "холодный пурпур",
+          "изумруд",
+          "blue-green",
+          "графит",
+          "серебро"
+        ],
+        "preferredColorTemperatures": [
+          "cold"
+        ],
+        "preferredColorBrightness": [
+          "bright",
+          "deep",
+          "light"
+        ],
+        "preferredLengths": [
+          "midi",
+          "ankle",
+          "maxi"
+        ],
+        "avoidLengths": [],
+        "preferredSilhouettes": [
+          "a-line",
+          "wrap",
+          "sheath"
+        ],
+        "avoidSilhouettes": [],
+        "preferredNecklines": [
+          "v-neck",
+          "round",
+          "sweetheart",
+          "boat",
+          "high-neck",
+          "off-shoulder",
+          "backless",
+          "one-shoulder"
+        ],
+        "avoidNecklines": [
+          "strapless"
+        ],
+        "preferredSleeves": [
+          "long",
+          "three-quarter"
+        ],
+        "preferredFits": [
+          "semi-fitted"
+        ],
+        "avoidFits": [],
+        "preferredPrintsAndLines": [],
+        "avoidPrintsAndLines": [],
+        "waistAccentRecommended": true,
+        "technicalConstraints": {
+          "size": "M",
+          "budgetMin": 2500,
+          "budgetMax": 12000,
+          "season": "winter"
+        },
+        "notes": [
+          "Рост: Естественная или чуть заниженная талия",
+          "Вес: Матовые ткани средней плотности, диагональная драпировка, вертикальные швы"
+        ]
+      },
+      "total_dresses_in_database": 50,
+      "returned_recommendations": 10,
+      "note": "Результат является вероятностной рекомендацией и не гарантирует идеальную посадку платья.",
+      "recommendations": [
+        {
+          "rank": 1,
+          "dress_id": 22,
+          "name": "Черный платье мини с запахом с круглым вырезом",
+          "match_percent": 92,
+          "match_level": "very_high",
+          "raw_score": 106,
+          "style_score": 92,
+          "technical_score": 17,
+          "negative_score": -3,
+          "price_rub": 2624,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "черный",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "mini",
+          "silhouette": "wrap",
+          "neckline": "round",
+          "sleeve_length": "short",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: True Winter / Холодная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "сезон платья может не совпадать с указанным сезоном"
+          ],
+          "base_percent_before_diversity": 92,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 2,
+          "dress_id": 38,
+          "name": "Красный платье миди с запахом с высоким воротом",
+          "match_percent": 82,
+          "match_level": "high",
+          "raw_score": 107,
+          "style_score": 126,
+          "technical_score": 9,
+          "negative_score": -28,
+          "price_rub": 4124,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "красный",
+          "color_temperature": "cold",
+          "color_brightness": "bright",
+          "length": "midi",
+          "silhouette": "wrap",
+          "neckline": "high-neck",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: True Winter / Холодная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "сезон платья может не совпадать с указанным сезоном"
+          ],
+          "base_percent_before_diversity": 82,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 3,
+          "dress_id": 5,
+          "name": "Черное платье миди с запахом",
+          "match_percent": 70,
+          "match_level": "high",
+          "raw_score": 91,
+          "style_score": 125,
+          "technical_score": 4,
+          "negative_score": -38,
+          "price_rub": 1424,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "черный",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "midi",
+          "silhouette": "wrap",
+          "neckline": "v-neck",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "autumn"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1EB6L_31922898_1_v3_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: True Winter / Холодная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "цена выходит за указанный бюджет",
+            "сезон платья может не совпадать с указанным сезоном",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 79,
+          "diversity_penalty": 9
+        },
+        {
+          "rank": 4,
+          "dress_id": 29,
+          "name": "Темно-синий платье миди А-силуэта с круглым вырезом",
+          "match_percent": 68,
+          "match_level": "medium",
+          "raw_score": 78,
+          "style_score": 112,
+          "technical_score": 4,
+          "negative_score": -38,
+          "price_rub": 779,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "темно-синий",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "midi",
+          "silhouette": "a-line",
+          "neckline": "round",
+          "sleeve_length": "sleeveless",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «перевёрнутый треугольник»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "платье подходит весовой категории: 65–75 кг",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "цена выходит за указанный бюджет",
+            "сезон платья может не совпадать с указанным сезоном"
+          ],
+          "base_percent_before_diversity": 68,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 5,
+          "dress_id": 46,
+          "name": "Черный платье мини с запахом с открытыми плечами",
+          "match_percent": 62,
+          "match_level": "medium",
+          "raw_score": 96,
+          "style_score": 97,
+          "technical_score": 12,
+          "negative_score": -13,
+          "price_rub": 1574,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "черный",
+          "color_temperature": "cold",
+          "color_brightness": "dark",
+          "length": "mini",
+          "silhouette": "wrap",
+          "neckline": "off-shoulder",
+          "sleeve_length": "short",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: True Winter / Холодная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M"
+          ],
+          "warnings": [
+            "цена выходит за указанный бюджет",
+            "сезон платья может не совпадать с указанным сезоном",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 83,
+          "diversity_penalty": 21
+        },
+        {
+          "rank": 6,
+          "dress_id": 37,
+          "name": "Бордовый платье мини А-силуэта с вырезом лодочка",
+          "match_percent": 62,
+          "match_level": "medium",
+          "raw_score": 71,
+          "style_score": 90,
+          "technical_score": 15,
+          "negative_score": -34,
+          "price_rub": 2324,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бордовый",
+          "color_temperature": "cold",
+          "color_brightness": "deep",
+          "length": "mini",
+          "silhouette": "a-line",
+          "neckline": "boat",
+          "sleeve_length": "sleeveless",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «перевёрнутый треугольник»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: True Winter / Холодная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "цена выходит за указанный бюджет",
+            "бордовый больше подходит темной зиме; для холодной зимы точнее чистый холодный красный, черный, синий или изумрудный",
+            "бордовый допустим для зимы, но для холодной зимы чаще точнее чистый холодный красный или черный"
+          ],
+          "base_percent_before_diversity": 62,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 7,
+          "dress_id": 30,
+          "name": "Изумрудный платье макси с запахом с вырезом лодочка",
+          "match_percent": 60,
+          "match_level": "medium",
+          "raw_score": 69,
+          "style_score": 97,
+          "technical_score": 7,
+          "negative_score": -35,
+          "price_rub": 2099,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "изумрудный",
+          "color_temperature": "cold",
+          "color_brightness": "bright",
+          "length": "maxi",
+          "silhouette": "wrap",
+          "neckline": "boat",
+          "sleeve_length": "short",
+          "fit": "fitted",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "цена выходит за указанный бюджет"
+          ],
+          "base_percent_before_diversity": 60,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 8,
+          "dress_id": 14,
+          "name": "Красный платье миди с запахом с квадратным вырезом",
+          "match_percent": 58,
+          "match_level": "medium",
+          "raw_score": 90,
+          "style_score": 118,
+          "technical_score": 7,
+          "negative_score": -35,
+          "price_rub": 1349,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "красный",
+          "color_temperature": "cold",
+          "color_brightness": "bright",
+          "length": "midi",
+          "silhouette": "wrap",
+          "neckline": "square",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "степень облегания подходит профилю пользователя",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: True Winter / Холодная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "оттенок входит в характерную палитру для группы «зимний цветотип»",
+            "контрастный глубокий оттенок хорошо совпадает с зимним цветотипом"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "сезон платья совпадает с указанным сезоном"
+          ],
+          "warnings": [
+            "нет нужного размера: M",
+            "цена выходит за указанный бюджет",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 78,
+          "diversity_penalty": 20
+        },
+        {
+          "rank": 9,
+          "dress_id": 10,
+          "name": "Голубое облегающее платье макси",
+          "match_percent": 48,
+          "match_level": "low",
+          "raw_score": 55,
+          "style_score": 75,
+          "technical_score": 17,
+          "negative_score": -37,
+          "price_rub": 3224,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "голубой",
+          "color_temperature": "cold",
+          "color_brightness": "light",
+          "length": "maxi",
+          "silhouette": "sheath",
+          "neckline": "v-neck",
+          "sleeve_length": "long",
+          "fit": "fitted",
+          "waist_accent": false,
+          "season": [
+            "spring"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KZ7T_33371791_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: высокий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "сезон платья может не совпадать с указанным сезоном",
+            "нет акцента на талии, хотя он рекомендован для данного типа фигуры",
+            "яркость/глубина цвета менее удачна для группы «зимний цветотип»",
+            "слишком мягкий или светлый оттенок может быть слабее для зимнего цветотипа"
+          ],
+          "base_percent_before_diversity": 48,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 10,
+          "dress_id": 13,
+          "name": "Бордовый платье мини А-силуэта с V-образным вырезом",
+          "match_percent": 45,
+          "match_level": "low",
+          "raw_score": 70,
+          "style_score": 95,
+          "technical_score": 12,
+          "negative_score": -37,
+          "price_rub": 857,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бордовый",
+          "color_temperature": "cold",
+          "color_brightness": "deep",
+          "length": "mini",
+          "silhouette": "a-line",
+          "neckline": "v-neck",
+          "sleeve_length": "sleeveless",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье отмечено как подходящее для типа фигуры «перевёрнутый треугольник»",
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "есть акцент на талии, рекомендованный для данного типа фигуры",
+            "платье подходит весовой категории: 65–75 кг",
+            "платье подходит предполагаемому цветотипу: True Winter / Холодная зима",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет не только по температуре, но и по насыщенности подходит под зимний цветотип",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: M"
+          ],
+          "warnings": [
+            "цена выходит за указанный бюджет",
+            "сезон платья может не совпадать с указанным сезоном",
+            "бордовый больше подходит темной зиме; для холодной зимы точнее чистый холодный красный, черный, синий или изумрудный",
+            "бордовый допустим для зимы, но для холодной зимы чаще точнее чистый холодный красный или черный",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 61,
+          "diversity_penalty": 16
+        }
+      ]
+    },
+    {
+      "user_id": "user_06",
+      "user_name": "Низкий рост, тип фигуры неизвестен, нейтральные данные",
+      "status": "ok",
+      "input": {
+        "id": "user_06",
+        "name": "Низкий рост, тип фигуры неизвестен, нейтральные данные",
+        "height_cm": 155,
+        "weight_kg": 49,
+        "size": "XS",
+        "body_type": "не знаю",
+        "hair_color": "темно-русый",
+        "eye_color": "зеленые",
+        "skin_tone": "светлая",
+        "skin_undertone": "нейтральный",
+        "vein_color": "сложно определить",
+        "hair_length_or_hairstyle": "до плеч",
+        "hair_type": "волнистые",
+        "preferred_colors": [
+          "бежевый",
+          "серый",
+          "розовый"
+        ],
+        "budget_min": 1000,
+        "budget_max": 6000,
+        "season": "any",
+        "tan_behavior": "оливковый",
+        "freckles": "пепельные или почти нет",
+        "lip_color": "холодный розовый с оливковым оттенком",
+        "brows_lashes": "такого же цвета как волосы",
+        "color_type": null,
+        "freckles_tan_blush": null,
+        "contrast_saturation": null,
+        "metals_tests": null
+      },
+      "profile": {
+        "input": {
+          "id": "user_06",
+          "name": "Низкий рост, тип фигуры неизвестен, нейтральные данные",
+          "height_cm": 155,
+          "weight_kg": 49,
+          "size": "XS",
+          "body_type": "не знаю",
+          "hair_color": "темно-русый",
+          "eye_color": "зеленые",
+          "skin_tone": "светлая",
+          "skin_undertone": "нейтральный",
+          "vein_color": "сложно определить",
+          "hair_length_or_hairstyle": "до плеч",
+          "hair_type": "волнистые",
+          "preferred_colors": [
+            "бежевый",
+            "серый",
+            "розовый"
+          ],
+          "budget_min": 1000,
+          "budget_max": 6000,
+          "season": "any",
+          "tan_behavior": "оливковый",
+          "freckles": "пепельные или почти нет",
+          "lip_color": "холодный розовый с оливковым оттенком",
+          "brows_lashes": "такого же цвета как волосы",
+          "color_type": null,
+          "freckles_tan_blush": null,
+          "contrast_saturation": null,
+          "metals_tests": null
+        },
+        "heightCategory": "short",
+        "heightLabel": "150–155 см",
+        "weightLabel": "45–55 кг",
+        "bodyType": "не знаю",
+        "colorType": {
+          "id": "myagkoe_leto",
+          "displayName": "Soft Summer / Мягкое лето",
+          "sourceLabel": "Мягкое лето / Soft Summer",
+          "group": "summer",
+          "confidence": "high",
+          "matchedFields": [
+            "hair_color",
+            "skin_tone",
+            "eye_color",
+            "brows_lashes",
+            "tan_behavior",
+            "freckles",
+            "lip_color"
+          ]
+        },
+        "preferredColors": [
+          "Очень приглушённые холодноватые оттенки: пыльная роза",
+          "mauve",
+          "холодный бежево-розовый",
+          "серо-лавандовый",
+          "мягкая слива",
+          "дымчатый голубой",
+          "серо-синий",
+          "muted denim",
+          "sage",
+          "эвкалипт",
+          "серо-зелёный",
+          "soft teal",
+          "грибной",
+          "taupe",
+          "rose brown",
+          "холодный какао",
+          "мягкий серый"
+        ],
+        "preferredColorTemperatures": [
+          "cold"
+        ],
+        "preferredColorBrightness": [
+          "soft",
+          "bright"
+        ],
+        "preferredLengths": [
+          "mini",
+          "knee",
+          "midi"
+        ],
+        "avoidLengths": [
+          "maxi",
+          "ankle"
+        ],
+        "preferredSilhouettes": [
+          "a-line",
+          "wrap",
+          "sheath",
+          "shirt-dress",
+          "belted",
+          "straight",
+          "slip-dress",
+          "draped"
+        ],
+        "avoidSilhouettes": [],
+        "preferredNecklines": [
+          "v-neck",
+          "square",
+          "boat",
+          "strapless",
+          "sweetheart",
+          "round",
+          "high-neck",
+          "halter",
+          "off-shoulder",
+          "one-shoulder",
+          "illusion_illyuziya_prozrachnaya_setka_kruzhevo_u_shei",
+          "cowl",
+          "queen_anne_korolevy_anny",
+          "dekorativnyi_vyrez_kruzhevo_ryushi_scallop_slozhnaya_otdelka",
+          "backless"
+        ],
+        "avoidNecklines": [],
+        "preferredSleeves": [
+          "short",
+          "three-quarter",
+          "long",
+          "sleeveless",
+          "puff"
+        ],
+        "preferredFits": [],
+        "avoidFits": [],
+        "preferredPrintsAndLines": [
+          "vertical-stripe"
+        ],
+        "avoidPrintsAndLines": [],
+        "waistAccentRecommended": false,
+        "technicalConstraints": {
+          "size": "XS",
+          "budgetMin": 1000,
+          "budgetMax": 6000,
+          "season": "any"
+        },
+        "notes": [
+          "Рост: Талия чуть выше естественной",
+          "Вес: Трикотаж, сатин, костюмная ткань, фактура, рюши, сборки"
+        ]
+      },
+      "total_dresses_in_database": 50,
+      "returned_recommendations": 10,
+      "note": "Результат является вероятностной рекомендацией и не гарантирует идеальную посадку платья.",
+      "recommendations": [
+        {
+          "rank": 1,
+          "dress_id": 20,
+          "name": "Лавандовый платье миди рубашка с V-образным вырезом",
+          "match_percent": 74,
+          "match_level": "high",
+          "raw_score": 85,
+          "style_score": 111,
+          "technical_score": 9,
+          "negative_score": -35,
+          "price_rub": 2324,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "лавандовый",
+          "color_temperature": "cold",
+          "color_brightness": "soft",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "v-neck",
+          "sleeve_length": "long",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Soft Summer / Мягкое лето",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: XS",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена"
+          ],
+          "base_percent_before_diversity": 74,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 2,
+          "dress_id": 11,
+          "name": "Розовое платье миди с V-вырезом",
+          "match_percent": 68,
+          "match_level": "medium",
+          "raw_score": 78,
+          "style_score": 104,
+          "technical_score": 9,
+          "negative_score": -35,
+          "price_rub": 2099,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "розовый",
+          "color_temperature": "cold",
+          "color_brightness": "soft",
+          "length": "midi",
+          "silhouette": "fit-and-flare",
+          "neckline": "v-neck",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KP3L_32939304_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 45–55 кг",
+            "платье подходит предполагаемому цветотипу: Soft Summer / Мягкое лето",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: XS",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена"
+          ],
+          "base_percent_before_diversity": 68,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 3,
+          "dress_id": 32,
+          "name": "Лавандовый платье миди прямого кроя с открытыми плечами",
+          "match_percent": 62,
+          "match_level": "medium",
+          "raw_score": 85,
+          "style_score": 111,
+          "technical_score": 9,
+          "negative_score": -35,
+          "price_rub": 3599,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "лавандовый",
+          "color_temperature": "cold",
+          "color_brightness": "soft",
+          "length": "midi",
+          "silhouette": "straight",
+          "neckline": "off-shoulder",
+          "sleeve_length": "long",
+          "fit": "semi-fitted",
+          "waist_accent": false,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Soft Summer / Мягкое лето",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: XS",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 74,
+          "diversity_penalty": 12
+        },
+        {
+          "rank": 4,
+          "dress_id": 8,
+          "name": "Серое платье-рубашка миди",
+          "match_percent": 57,
+          "match_level": "medium",
+          "raw_score": 70,
+          "style_score": 96,
+          "technical_score": 9,
+          "negative_score": -35,
+          "price_rub": 2099,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "серый",
+          "color_temperature": "cold",
+          "color_brightness": "soft",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "collar",
+          "sleeve_length": "short",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "autumn"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1K9T5_32919975_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Soft Summer / Мягкое лето",
+            "температура цвета подходит предполагаемому цветотипу",
+            "яркость/глубина цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: XS",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 61,
+          "diversity_penalty": 4
+        },
+        {
+          "rank": 5,
+          "dress_id": 10,
+          "name": "Голубое облегающее платье макси",
+          "match_percent": 57,
+          "match_level": "medium",
+          "raw_score": 65,
+          "style_score": 72,
+          "technical_score": 17,
+          "negative_score": -24,
+          "price_rub": 3224,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "голубой",
+          "color_temperature": "cold",
+          "color_brightness": "light",
+          "length": "maxi",
+          "silhouette": "sheath",
+          "neckline": "v-neck",
+          "sleeve_length": "long",
+          "fit": "fitted",
+          "waist_accent": false,
+          "season": [
+            "spring"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KZ7T_33371791_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 45–55 кг",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: XS",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "длина платья входит в список нежелательных для данного роста",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена"
+          ],
+          "base_percent_before_diversity": 57,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 6,
+          "dress_id": 16,
+          "name": "Молочный платье мини прямого кроя с вырезом лодочка",
+          "match_percent": 57,
+          "match_level": "medium",
+          "raw_score": 65,
+          "style_score": 68,
+          "technical_score": 17,
+          "negative_score": -20,
+          "price_rub": 3599,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "молочный",
+          "color_temperature": "warm",
+          "color_brightness": "light",
+          "length": "mini",
+          "silhouette": "straight",
+          "neckline": "boat",
+          "sleeve_length": "long",
+          "fit": "loose",
+          "waist_accent": false,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос",
+            "принт/линии платья соответствуют рекомендациям профиля"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: XS",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "температура цвета может быть менее удачной для предполагаемого цветотипа",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена"
+          ],
+          "base_percent_before_diversity": 57,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 7,
+          "dress_id": 7,
+          "name": "Бежевое платье-рубашка с разрезом",
+          "match_percent": 46,
+          "match_level": "low",
+          "raw_score": 66,
+          "style_score": 69,
+          "technical_score": 17,
+          "negative_score": -20,
+          "price_rub": 3224,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бежевый",
+          "color_temperature": "neutral",
+          "color_brightness": "light",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "collar",
+          "sleeve_length": "short",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1L5B3_33244997_1_v3_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит предполагаемому цветотипу: Soft Summer / Мягкое лето",
+            "цвет платья совпадает с часто носимыми цветами пользователя",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: XS",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "температура цвета может быть менее удачной для предполагаемого цветотипа",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 57,
+          "diversity_penalty": 11
+        },
+        {
+          "rank": 8,
+          "dress_id": 37,
+          "name": "Бордовый платье мини А-силуэта с вырезом лодочка",
+          "match_percent": 42,
+          "match_level": "low",
+          "raw_score": 48,
+          "style_score": 64,
+          "technical_score": 17,
+          "negative_score": -33,
+          "price_rub": 2324,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "бордовый",
+          "color_temperature": "cold",
+          "color_brightness": "deep",
+          "length": "mini",
+          "silhouette": "a-line",
+          "neckline": "boat",
+          "sleeve_length": "sleeveless",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "температура цвета подходит предполагаемому цветотипу",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: XS",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "яркость/глубина цвета менее удачна для группы «летний цветотип»",
+            "летнему цветотипу чаще подходят мягкие и приглушенные оттенки, а не слишком темные или яркие",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена"
+          ],
+          "base_percent_before_diversity": 42,
+          "diversity_penalty": 0
+        },
+        {
+          "rank": 9,
+          "dress_id": 28,
+          "name": "Молочный платье мини рубашка с квадратным вырезом",
+          "match_percent": 41,
+          "match_level": "low",
+          "raw_score": 61,
+          "style_score": 64,
+          "technical_score": 17,
+          "negative_score": -20,
+          "price_rub": 2099,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "color": "молочный",
+          "color_temperature": "warm",
+          "color_brightness": "light",
+          "length": "mini",
+          "silhouette": "shirt-dress",
+          "neckline": "square",
+          "sleeve_length": "long",
+          "fit": "loose",
+          "waist_accent": true,
+          "season": [
+            "autumn",
+            "winter"
+          ],
+          "in_stock": true,
+          "image": null,
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье отмечено как подходящее для указанной длины волос"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "есть нужный размер: XS",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "температура цвета может быть менее удачной для предполагаемого цветотипа",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 53,
+          "diversity_penalty": 12
+        },
+        {
+          "rank": 10,
+          "dress_id": 2,
+          "name": "Голубое платье-рубашка миди с поясом",
+          "match_percent": 39,
+          "match_level": "low",
+          "raw_score": 68,
+          "style_score": 94,
+          "technical_score": 9,
+          "negative_score": -35,
+          "price_rub": 2174,
+          "sizes": [
+            "40",
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "color": "голубой",
+          "color_temperature": "cold",
+          "color_brightness": "light",
+          "length": "midi",
+          "silhouette": "shirt-dress",
+          "neckline": "v-neck",
+          "sleeve_length": "sleeveless",
+          "fit": "semi-fitted",
+          "waist_accent": true,
+          "season": [
+            "spring",
+            "summer"
+          ],
+          "in_stock": true,
+          "image": "https://a.lmcdn.ru/img236x341/M/P/MP002XW1KX9D_33371529_1_v2_2x.jpg",
+          "source_url": "https://www.lamoda.ru/cb/369-22316/clothes-platiya-zarina/",
+          "style_reasons": [
+            "силуэт соответствует рекомендациям по фигуре/весу",
+            "платье подходит категории роста: низкий рост",
+            "длина платья соответствует рекомендациям по росту",
+            "длина рукава соответствует рекомендациям профиля",
+            "платье подходит весовой категории: 45–55 кг",
+            "температура цвета подходит предполагаемому цветотипу",
+            "цвет платья входит в рекомендуемую палитру цветотипа",
+            "цвет не только по температуре, но и по насыщенности подходит под летний цветотип",
+            "оттенок входит в характерную палитру для группы «летний цветотип»",
+            "оттенок особенно хорошо совпадает с мягкой холодной палитрой летнего цветотипа",
+            "тип выреза подходит длине волос или прическе пользователя",
+            "платье подходит указанному типу волос/укладке"
+          ],
+          "technical_reasons": [
+            "товар есть в наличии",
+            "цена входит в указанный бюджет"
+          ],
+          "warnings": [
+            "нет нужного размера: XS",
+            "тип фигуры не определен точно, поэтому уверенность рекомендации снижена",
+            "позиция немного снижена для разнообразия выдачи: похожие цвет/фасон уже есть выше"
+          ],
+          "base_percent_before_diversity": 59,
+          "diversity_penalty": 20
+        }
+      ]
+    }
+  ]
+}
